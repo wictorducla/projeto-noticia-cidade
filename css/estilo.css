@@ -25,9 +25,18 @@ body {
     width: 152px;
     height: 66px;
     background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
 }
 
 /* Barra de navegação */
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
 
 ul {
     margin: 0;
@@ -52,7 +61,7 @@ ul {
     line-height: 2.1em;
     text-decoration: none;
     color: #fff;
-    background: url(../imagens/divisor.png) no-repeat left;
+    background: url(../imagens/divisor.png) no-repeat left center;
 }
 
 #topo ul .primeiro a {
@@ -92,7 +101,6 @@ body.fotos #navegacao a#fotos {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario {
@@ -109,7 +117,6 @@ body.fotos #navegacao a#fotos {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
 /*Caixa*/
@@ -140,7 +147,7 @@ h2 {
     line-height: 30px;
     color: #000;
     text-decoration: none;
-    border-bottom: 1pix solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
 }
 
 #lateral ul a:hover {
@@ -168,6 +175,45 @@ input.submit {
     color: #fff;
     background-color: #b10333;
     border: 2px solid #870529;
+}
+
+/*Formatando as imagens*/
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+    color: #fff;
+}
+
+/*Formatando lista de noticias*/
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;
 }
 
 /*rodape*/
